@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int x;
+    int y;
+    int z;
+    cout<<"Enter the city 1 placein km";
+    cin>>x;
+    cout<<"Enter the city 2 placein km";
+    cin>>y;
+    z=sqrt(abs(pow(x,2)-pow(y,2)));
+    cout<<"distance="<<z<<"km";
+}
