@@ -1,0 +1,25 @@
+#include <iostream>
+    
+    using namespace std;
+    
+    int main()
+    {
+        float pi;
+        float numerator = 4.0;
+        float denominator = 1.0;
+        int counter = 0;
+        while(counter != 1000)
+        {
+            if(counter % 2 == 0)
+            {
+                pi += (numerator / denominator);
+            }
+            else
+            {
+                pi -= (numerator / denominator);
+            }
+            denominator += 2;
+            counter ++;
+        }
+        cout << pi << endl;
+    }
